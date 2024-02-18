@@ -11,10 +11,6 @@ let caroselElementStrings = [
                             'Click <a id="caroselLink" href="/Child/child_plans.html"><strong>here</strong></a> to select your Bible study plan, if you are 20 years and older, or <a href="/Categories/categories.html"><strong>exit</strong></a> to go back.'
                             ];
 
-function alertCall() {
-    alert("This is an alert");
-}
-
 function nextCard() {
     curPage  += 1;
     if (curPage >= 3){
